@@ -126,6 +126,10 @@ Buttons
   background: var(--primaryLightColor);
   border-color: var(--primaryLightColor);
 }
+.btn-backhome{
+  margin-left: 50%;
+  transform: translateX(-50%);
+}
 /* 
 ====== 
 Navbar
@@ -303,6 +307,13 @@ Form
   padding: 0.5rem;
   font-size: 1.2rem;
 }
+.btn-generate{
+  margin: 2% auto;
+  margin-left: 50%;
+  transform: translateX(-50%);
+  width: 45%;
+  font-size: 55%;
+}
 /* 
 ====== 
 Cocktail
@@ -408,4 +419,29 @@ Cocktail
     box-shadow: 0 -2em;
     height: 5em;
   }
+}
+/* 
+====== 
+PAGINATION
+======
+*/
+ul.pagination{
+  display:flex;
+  justify-content: center;
+  width: 85vw;
+  margin: 0 auto;
+}
+ul.pagination li{
+  width: 2rem;
+  height: 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 5vw;
+  background: transparent;
+  border: 2px solid var(--primaryColor);
+  font-size: 1rem;
+}
+ul.pagination li:last-child{
+  margin-left: none;
 }
