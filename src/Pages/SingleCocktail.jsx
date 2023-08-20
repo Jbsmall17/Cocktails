@@ -71,7 +71,8 @@ function SingleCocktail() {
               <p><span className='drink-data'>Instrutions:</span>{Instructions}</p>
               <p>
                 <span className='drink-data'>Ingredient</span>
-                {Ingredient.map(recipe=>recipe === null? null :<span>{recipe}</span>)}</p>
+                {Ingredient.map(recipe=>recipe === null? null :<span>{recipe}</span>)}
+              </p>
             </div>
             </div>      
         </section>
